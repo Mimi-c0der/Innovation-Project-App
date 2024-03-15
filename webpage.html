@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAPA Form Corrector</title>
+</head>
+<body>
+    <h1>PAPA Form Corrector</h1>
+    <p>Click one of the buttons below to be redirected to a pose correction model</p>
+    <button id="button1" type="button">Hastas</button>
+    <button id="button2" type="button">Bharatanatyam</button>
+    <button id="button3" type="button">Karate</button>
+
+
+    <script>
+        // Function to handle button click and redirect to a link in a new tab
+        function redirectToLink(link) {
+            window.open(link, '_blank');
+        }
+
+        // Add event listeners to buttons
+        document.getElementById("button1").addEventListener("click", function() {
+            redirectToLink("https://editor.p5js.org/mangomonkey/full/cjYdK7hyd");
+        });
+
+        document.getElementById("button2").addEventListener("click", function() {
+            redirectToLink("https://editor.p5js.org/mangomonkey/full/tvrm8_EQU");
+        });
+
+        document.getElementById("button3").addEventListener("click", function() {
+            redirectToLink("https://editor.p5js.org/mangomonkey/full/iKE_6y-Jp");
+        });
+    </script>
+</body>
+</html>
+
